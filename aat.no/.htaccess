@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^aat\.no$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.aat\.no$
+RewriteRule ^(.*)$ "https\:\/\/www\.aarholt\-tunet\.no\/$1" [R=301,L]
+

@@ -1,0 +1,223 @@
+/*Standarde formler i CSS*/
+!!/ALLE SIDER { background-color: #ff0003; font-size: 18px; } 
+html, body { height: 100%; margin: 0; padding: 0; }
+body { background: white; color: black; font-size: 9pt;
+       font-family: Georgia, Verdana, Arial, Helvetica, SansSerif, serif }
+
+p, li, td, div { font-size: 9pt; font-weight: normal }
+p, li { font-size: 14px; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 9px; line-height: 1.5em }
+
+h1 { padding-left: 5px; font-size: 14pt; font-weight: bold; margin-top: 5px; margin-bottom: 10px; text-transform: uppercase; }
+h2 { padding-left: 5px; font-size: 12pt; font-weight: bold; margin-top: 5px; margin-bottom: 10px }
+h3 { padding-left: 5px; font-size: 11pt; font-weight: bold; margin-top: 5px; margin-bottom: 8px }
+
+a { border-color: black; border-style: none; border-width: 0px; margin: 0px; padding: 0px; text-decoration: none; }
+a:hover { text-decoration: underline; color: #6bc3dd; }
+
+/* Våre formler */
+
+img { border-style: none; }
+
+.toparea { height: 120px; margin-left: 200px;}
+
+a.undermeny:hover { padding-left: 4px; padding-right: 4px; padding-bottom: 2px; padding-top: 20px; text-decoration: none; color: #6bc3dd; }
+
+a.undermenyV:hover { text-decoration: none; color: #6bc3dd; }
+
+.hoved { position: relative; margin-left: 20px; margin-top: 53px; float: left; color: white; }
+
+.logo { float: left; margin-top: 33px; margin-left: 7px;
+        background-image: url(../img/banner/logo_hvit_liten.png); background-repeat: no-repeat;
+        width: 193px; height:54px; position: fixed;}
+
+         
+.logosvart { float: left; margin-top: 33px; margin-left: 7px;
+        background-image: url(../img/banner/logo_svart_liten.png); background-repeat: no-repeat;
+        width: 193px; height: 100%; position: fixed;}
+        
+.slideshow { float: none; width: 45%; margin-bottom: 40px; margin-left: 22%; margin-top: 100px;}
+
+
+         
+.venstremenybox	{ float: left; margin-top: 50px; min-width: 220px; position: fixed; height: 100%; width: 20%; }
+
+.venstremeny { width: 95%; margin-bottom: 8px; margin-top: 8px; margin-left: 7px; }
+
+a.venstremeny { margin-left: 0px; color: white; font-size: 14pt; text-transform: uppercase; }
+
+.venstremenyV { margin-right: 5px; margin-bottom: 8px; margin-top: 8px; background-color: #ffeebc; margin-left: 7px; }
+
+a.venstremenyV { margin-left: 0px; color: black; font-size: 14pt; text-transform: uppercase; }
+ 
+.uvenstremeny { width: 95%; margin-left: 20px; margin-bottom: 8px; margin-top: 8px; }
+
+a.uvenstremeny { margin-left: 0px; color: white; font-size: 11pt; text-transform: uppercase; }
+             
+.uvenstremenyV { margin-right: 5px; margin-left: 20px; margin-bottom: 8px;  margin-top: 8px; background-color: #ffeebc; }
+
+a.uvenstremenyV { margin-left: 0px; font-size: 11pt; color: black; text-transform: uppercase; }
+
+/*---------------------*/
+FORSIDEN { background-color: #ff0003; font-size: 18px; } 
+
+.indexbakgrunn { height:100%; width: 100%; background: url(../img/bakgrunn/indexbakgrunn.jpg) no-repeat;  background-size: cover;  -moz-background-size:cover; -webkit-background-size:cover; position: fixed; overflow: hidden;}
+
+.forsidelogo { float: left; height: 20%; margin-top: 20px; margin-left: 7px; position: fixed; }
+
+.venstrebox	{ float: left; height: 100%; margin-top: 20%;  width: 25%; min-width: 200px; position: fixed;}
+
+.forsidebilde { width: 35%; margin-right: auto; margin-left: auto; border-color: black; border-width: 2px; border-style: solid; box-shadow: 2px 2px 5px black; -webkit-box-shadow: 2px 2px 5px black; -moz-box-shadow: 2px 2px 5px black;}
+
+.forsidebilde a img { display: block; }
+
+.forsidetext {color: white; text-align: center; margin-top: 5px; margin-bottom: 20px; font-size: 12px; width: 100%; }
+
+.hovedarea	{float: left; width: 40%; height: 100%;  margin-top: 0%; margin-left: 25%;}
+
+.hoyremeny { height: auto; float: left; width: 25%; margin-top: 5%; margin-bottom: 15%; position: relative; }
+
+.hoyremenybox { margin-right: auto; margin-left: auto; height: 20%; width: 60%; }
+
+.fotmeny	{ margin-top: 70%; height: 40%; float: left; width: 100%;}
+
+.fotvenstre	{ height: 100%; float: left; width: 40%; opacity:0.7;}
+
+.fothoyre	{ height: 100%; background-color: #ea393c; float: left; width: 40%; opacity:0.7;}
+
+.ieadvarsel { float: left; margin-left: 30px; border-width: 2px; position: fixed; height: auto; width: 200px; background-color: red;}
+
+/*---------------------*/
+
+BONDEGARDSFERIE { background-color: #ff0003; font-size: 18px; } 
+.bondegardsferiebakgrunn { min-width: 1100px; width: 100%;  background: url(../img/bakgrunn/bondegardsferiebakgrunn.jpg) no-repeat; background-attachment: fixed; background-size:cover;  -moz-background-size:cover; -webkit-background-size:cover;}
+
+.venstretekstbilde { border-color: black; border-width: 2px; border-style: solid; float: left; width: 45%; margin: 2%; clear: both;}
+
+/*---------------------*/
+LEIRSKOLE { background-color: #ff0003; font-size: 18px; } 
+
+.leirskolebakgrunn { min-width: 1024px; width: 100%; background: url(../img/bakgrunn/leirskolebakgrunn.jpg) no-repeat; background-attachment: fixed; background-size:cover;  -moz-background-size:cover; -webkit-background-size:cover;}
+
+.leirbakgrunn { min-width: 960px; width: 100%; background: url(../img/bakgrunn/samlivsbakgrunn2.png) no-repeat; background-attachment: fixed; background-size:cover;  -moz-background-size:cover; -webkit-background-size:cover;}
+
+/*---------------------*/
+SAMLIVSKURS { background-color: #ff0003; font-size: 18px; } 
+.samlivsbakgrunn {  background: url(../img/bakgrunn/samlivsbakgrunn.jpg) no-repeat; background-attachment: fixed; background-size:cover; -moz-background-size: cover; -webkit-background-size:cover;}
+
+.samlivarea	{ float: left; width: 45%; margin-bottom: 40px; background-color: #ffeebc; margin-left: 22%; margin-top: 100px; box-shadow: 3px 3px 5px black; -webkit-box-shadow: 3px 3px 5px black; -moz-box-shadow: 3px 3px 5px black;}
+
+.samlivareablank { float: left; width: 45%; margin-bottom: 40px; margin-left: 22%; margin-top: 100px;}
+
+.samlivstekstbilde { margin-right: 25%; margin-left: 25%; width: 50%; border-color: black; border-width: 2px; border-style: solid; }
+
+.artikkelbilde { margin-right: 25%; margin-left: 25%; width:50%; border-color: black; border-width: 2px; border-style: solid;}
+
+.toartikkelbilder { margin-left:3.2%; margin-right: 3.2%; width: 42%; border-color: black; border-width: 2px; border-style: solid;  }
+
+.bildebanner { margin-left: 3%; margin-right: 3%; width: 94%; border-color: black; border-width: 2px; border-style: solid; }
+
+.samlivsbilde { width: 100%; border-color: black; border-width: 2px; border-style: solid; }
+
+.samlivstext {color: white; margin-top: 5px; margin-bottom: 20px; font-size: 12px; text-align: center; width: 100%; }
+
+.hoyrebilder { margin-left: 4%; float: left; margin-right: 30px; width: 15%; }
+
+.hoyrebilder img { display: block; box-shadow: 3px 3px 5px black; -webkit-box-shadow: 3px 3px 5px black; -moz-box-shadow: 3px 3px 5px black; }
+
+.listebox { margin-right: 20px; width: 200px; }
+
+/*---------------------*/
+UNGDOM/UNGDOM/FAMILIER { background-color: #ff0003; font-size: 18px; } 
+.ungdombakgrunn { min-width: 1024px; width: 100%;  background: url(../img/bakgrunn/ungdombakgrunn.jpg) no-repeat; background-attachment: fixed; background-size:cover;  -moz-background-size:cover;}
+
+.venstremenysvart { background-color: white; width: 95%; margin-bottom: 8px; margin-top: 8px; margin-left: 7px; }
+
+a.venstremenysvart { margin-left: 0px; color: black; font-size: 14pt; text-transform: uppercase; }
+
+.venstremenysvartV { margin-right: 5px; margin-bottom: 8px; margin-top: 8px; background-color: black; margin-left: 7px; }
+
+a.venstremenysvartV { margin-left: 0px; color: white; font-size: 14pt; text-transform: uppercase; }
+
+.uvenstremenysvart { background-color: white; width: 95%; margin-left: 20px; margin-bottom: 8px; margin-top: 8px; }
+
+a.uvenstremenysvart { margin-left: 0px; color: black; font-size: 11pt; text-transform: uppercase; }
+
+.uvenstremenysvartV { margin-right: 5px; margin-left: 20px; margin-bottom: 8px;  margin-top: 8px; background-color: black; }
+
+a.uvenstremenysvartV { margin-left: 0px; font-size: 11pt; color: white; text-transform: uppercase; }
+
+/*---------------------*/
+VOKSNE { background-color: #ff0003; font-size: 18px; } 
+.voksnebakgrunn { min-width: 1024px; width: 100%;  background: url(../img/bakgrunn/voksnebakgrunn.jpg) no-repeat; background-attachment: fixed; background-size:cover;  -moz-background-size:cover; -webkit-background-size:cover;}
+
+OM OSS { background-color: #ff0003; font-size: 18px; } 
+.omossbakgrunn { min-width: 1024px; width: 100%;  background: url(../img/bakgrunn/omossbakgrunn.jpg) no-repeat; background-attachment: fixed; background-size:cover;  -moz-background-size:cover; -webkit-background-size:cover;}
+
+KONTAKT OSS { background-color: #ff0003; font-size: 18px; } 
+
+.kontaktossbakgrunn { min-width: 1024px; width: 100%;  background: url(../img/bakgrunn/kontaktossbakgrunn.jpg) no-repeat; background-attachment: fixed; background-size:cover;  -moz-background-size:cover; -webkit-background-size:cover;}
+
+.bodyareavenstre	{ background-color: #ffeebc; float: left; width: 50%; box-shadow: 3px 3px 5px black; -webkit-box-shadow: 3px 3px 5px black; -moz-box-shadow: 3px 3px 5px black;}
+
+/*---------------------*/
+ANNET { background-color: #ff0003; font-size: 18px; } 
+
+.historiertextbox {  margin-bottom: 60px;  margin-left: 10%;  position: relative; margin-right: 10%; float: right; text-align: left; border-color: black; border-style: solid; border-width: 1px; background-color: white; opacity:0.8; }
+
+
+.bilde { border-color: black; border-style: solid; border-width: 2px; margin-top: 30px; margin-right: 10%; margin-left: 10%; width: 80%; }
+
+.bildevenstre { float: left; border-color: black; border-style: solid; border-width: 2px; margin-top: 30px; margin-left: 10%; width: 35%; }
+
+.bildehoyre { float: right; border-color: black; border-style: solid; border-width: 2px; margin-top: 30px; margin-right: 10%; width: 35%; }
+
+.bildetekst { text-align: center; font-size: 21px; }
+
+.transparent { opacity:0.8;}
+
+.clr {clear: both;}
+
+.clrleft {clear:left;}
+
+/*---------------------*/
+.gallerycontainer{
+position: relative;
+/*Add a height attribute and set to largest image's height to prevent overlaying*/
+}
+
+.thumbnail img{
+border: 1px solid white;
+margin: 0 5px 5px 0;
+}
+
+.thumbnail:hover{
+background-color: transparent;
+}
+
+.thumbnail:hover img{
+border: 1px solid blue;
+}
+
+.thumbnail span{ /*CSS for enlarged image*/
+position: absolute;
+background-color: lightyellow;
+padding: 5px;
+left: -1000px;
+border: 1px dashed gray;
+visibility: hidden;
+color: black;
+text-decoration: none;
+}
+
+.thumbnail span img{ /*CSS for enlarged image*/
+border-width: 0;
+padding: 2px;
+}
+
+.thumbnail:hover span{ /*CSS for enlarged image*/
+visibility: visible;
+top: 0;
+left: 230px; /*position where enlarged image should offset horizontally */
+z-index: 50;
+}
+/*---------------------*/
