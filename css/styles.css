@@ -318,11 +318,11 @@ BONDEGARDSFERIE {
 }
 
 .bondegardsferiebakgrunn {
-    min-width              : 1100px;
-    width                  : 100%;
-    background             : url(../img/bakgrunn/bondegardsferiebakgrunn.jpg) no-repeat;
-    background-attachment  : fixed;
-    background-size        : cover;
+    min-width            : 1100px;
+    width                : 100%;
+    background           : url(../img/bakgrunn/bondegardsferiebakgrunn.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size      : cover;
 }
 
 .venstretekstbilde {
@@ -342,19 +342,19 @@ LEIRSKOLE {
 }
 
 .leirskolebakgrunn {
-    min-width              : 1024px;
-    width                  : 100%;
-    background             : url(../img/bakgrunn/leirskolebakgrunn.jpg) no-repeat;
-    background-attachment  : fixed;
-    background-size        : cover;
+    min-width            : 1024px;
+    width                : 100%;
+    background           : url(../img/bakgrunn/leirskolebakgrunn.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size      : cover;
 }
 
 .leirbakgrunn {
-    min-width              : 960px;
-    width                  : 100%;
-    background             : url(../img/bakgrunn/samlivsbakgrunn2.png) no-repeat;
-    background-attachment  : fixed;
-    background-size        : cover;
+    min-width            : 960px;
+    width                : 100%;
+    background           : url(../img/bakgrunn/samlivsbakgrunn2.png) no-repeat;
+    background-attachment: fixed;
+    background-size      : cover;
 }
 
 /*---------------------*/
@@ -364,9 +364,9 @@ SAMLIVSKURS {
 }
 
 .samlivsbakgrunn {
-    background             : url(../img/bakgrunn/samlivsbakgrunn.jpg) no-repeat;
-    background-attachment  : fixed;
-    background-size        : cover;
+    background           : url(../img/bakgrunn/samlivsbakgrunn.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size      : cover;
 }
 
 .samlivarea {
@@ -536,43 +536,30 @@ a.uvenstremenysvartV {
 }
 
 /*---------------------*/
-VOKSNE {
-    background-color: #ff0003;
-    font-size       : 18px;
-}
 
 .voksnebakgrunn {
-    min-width              : 1024px;
-    width                  : 100%;
-    background             : url(../img/bakgrunn/voksnebakgrunn.jpg) no-repeat;
-    background-attachment  : fixed;
-    background-size        : cover;
+    min-width            : 1024px;
+    width                : 100%;
+    background           : url(../img/bakgrunn/voksnebakgrunn.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size      : cover;
 }
 
-OM OSS {
-    background-color: #ff0003;
-    font-size       : 18px;
-}
 
 .omossbakgrunn {
-    min-width              : 1024px;
-    width                  : 100%;
-    background             : url(../img/bakgrunn/omossbakgrunn.jpg) no-repeat;
-    background-attachment  : fixed;
-    background-size        : cover;
-}
-
-KONTAKT OSS {
-    background-color: #ff0003;
-    font-size       : 18px;
+    min-width            : 1024px;
+    width                : 100%;
+    background           : url(../img/bakgrunn/omossbakgrunn.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size      : cover;
 }
 
 .kontaktossbakgrunn {
-    min-width              : 1024px;
-    width                  : 100%;
-    background             : url(../img/bakgrunn/kontaktossbakgrunn.jpg) no-repeat;
-    background-attachment  : fixed;
-    background-size        : cover;
+    min-width            : 1024px;
+    width                : 100%;
+    background           : url(../img/bakgrunn/kontaktossbakgrunn.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size      : cover;
 }
 
 .bodyareavenstre {
@@ -585,28 +572,18 @@ KONTAKT OSS {
 }
 
 /*---------------------*/
-FRILUFTSLIV {
-    background-color: #ff0003;
-    font-size       : 18px;
-}
-
 .polsegrillbakgrunn {
-    min-width              : 1100px;
-    width                  : 100%;
-    background             : url(../img/bakgrunn/polsegrillbakgrunn.jpg) no-repeat;
-    background-attachment  : fixed;
-    background-size        : cover;
+    min-width            : 1100px;
+    width                : 100%;
+    background           : url(../img/bakgrunn/polsegrillbakgrunn.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size      : cover;
 }
 
 
 
 
 /*---------------------*/
-ANNET {
-    background-color: #ff0003;
-    font-size       : 18px;
-}
-
 .historiertextbox {
     margin-bottom   : 60px;
     margin-left     : 10%;
@@ -765,11 +742,6 @@ ANNET {
     }
 
     /*---------------------*/
-    FORSIDEN {
-        background-color: #ff0003;
-        font-size       : 18px;
-    }
-
     .indexbakgrunn {
         background-attachment: fixed;
     }
@@ -861,7 +833,7 @@ ANNET {
 
     .bondegardsferiebakgrunn {
         background: None;
-        min-width: 0;
+        min-width : 0;
     }
 
     .venstretekstbilde {
@@ -881,36 +853,31 @@ ANNET {
     }
 
     .leirskolebakgrunn {
-        min-width              : 1024px;
-        width                  : 100%;
-        background             : url(../img/bakgrunn/leirskolebakgrunn.jpg) no-repeat;
-        background-attachment  : fixed;
-        background-size        : cover;
-    
+        min-width            : 1024px;
+        width                : 100%;
+        background           : url(../img/bakgrunn/leirskolebakgrunn.jpg) no-repeat;
+        background-attachment: fixed;
+        background-size      : cover;
+
         -webkit-background-size: cover;
     }
 
     .leirbakgrunn {
-        min-width              : 960px;
-        width                  : 100%;
-        background             : url(../img/bakgrunn/samlivsbakgrunn2.png) no-repeat;
-        background-attachment  : fixed;
-        background-size        : cover;
-    
+        min-width            : 960px;
+        width                : 100%;
+        background           : url(../img/bakgrunn/samlivsbakgrunn2.png) no-repeat;
+        background-attachment: fixed;
+        background-size      : cover;
+
         -webkit-background-size: cover;
     }
 
     /*---------------------*/
-    SAMLIVSKURS {
-        background-color: #ff0003;
-        font-size       : 18px;
-    }
-
     .samlivsbakgrunn {
-        background             : url(../img/bakgrunn/samlivsbakgrunn.jpg) no-repeat;
-        background-attachment  : fixed;
-        background-size        : cover;
-    
+        background           : url(../img/bakgrunn/samlivsbakgrunn.jpg) no-repeat;
+        background-attachment: fixed;
+        background-size      : cover;
+
         -webkit-background-size: cover;
     }
 
@@ -1004,11 +971,6 @@ ANNET {
     }
 
     /*---------------------*/
-    UNGDOM/UNGDOM/FAMILIER {
-        background-color: #ff0003;
-        font-size       : 18px;
-    }
-
     .ungdombakgrunn {
         min-width            : 1024px;
         width                : 100%;
@@ -1019,48 +981,33 @@ ANNET {
     }
 
     /*---------------------*/
-    VOKSNE {
-        background-color: #ff0003;
-        font-size       : 18px;
-    }
-
     .voksnebakgrunn {
-        min-width              : 1024px;
-        width                  : 100%;
-        background             : url(../img/bakgrunn/voksnebakgrunn.jpg) no-repeat;
-        background-attachment  : fixed;
-        background-size        : cover;
-    
-        -webkit-background-size: cover;
-    }
+        min-width            : 1024px;
+        width                : 100%;
+        background           : url(../img/bakgrunn/voksnebakgrunn.jpg) no-repeat;
+        background-attachment: fixed;
+        background-size      : cover;
 
-    OM OSS {
-        background-color: #ff0003;
-        font-size       : 18px;
+        -webkit-background-size: cover;
     }
 
     .omossbakgrunn {
-        min-width              : 1024px;
-        width                  : 100%;
-        background             : url(../img/bakgrunn/omossbakgrunn.jpg) no-repeat;
-        background-attachment  : fixed;
-        background-size        : cover;
-    
+        min-width            : 1024px;
+        width                : 100%;
+        background           : url(../img/bakgrunn/omossbakgrunn.jpg) no-repeat;
+        background-attachment: fixed;
+        background-size      : cover;
+
         -webkit-background-size: cover;
     }
 
-    KONTAKT OSS {
-        background-color: #ff0003;
-        font-size       : 18px;
-    }
-
     .kontaktossbakgrunn {
-        min-width              : 1024px;
-        width                  : 100%;
-        background             : url(../img/bakgrunn/kontaktossbakgrunn.jpg) no-repeat;
-        background-attachment  : fixed;
-        background-size        : cover;
-    
+        min-width            : 1024px;
+        width                : 100%;
+        background           : url(../img/bakgrunn/kontaktossbakgrunn.jpg) no-repeat;
+        background-attachment: fixed;
+        background-size      : cover;
+
         -webkit-background-size: cover;
     }
 
@@ -1074,28 +1021,18 @@ ANNET {
     }
 
     /*---------------------*/
-    FRILUFTSLIV {
-        background-color: #ff0003;
-        font-size       : 18px;
-    }
-
     .polsegrillbakgrunn {
-        min-width              : 1100px;
-        width                  : 100%;
-        background             : url(../img/bakgrunn/polsegrillbakgrunn.jpg) no-repeat;
-        background-attachment  : fixed;
-        background-size        : cover;
-    
+        min-width            : 1100px;
+        width                : 100%;
+        background           : url(../img/bakgrunn/polsegrillbakgrunn.jpg) no-repeat;
+        background-attachment: fixed;
+        background-size      : cover;
+
         -webkit-background-size: cover;
     }
 
 
     /*---------------------*/
-    ANNET {
-        background-color: #ff0003;
-        font-size       : 18px;
-    }
-
     .historiertextbox {
         margin-bottom   : 60px;
         margin-left     : 10%;
