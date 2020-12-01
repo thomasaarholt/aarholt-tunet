@@ -104,9 +104,9 @@ LEIRSKOLE { background-color: #ff0003; font-size: 18px; }
 SAMLIVSKURS { background-color: #ff0003; font-size: 18px; } 
 .samlivsbakgrunn {  background: url(../img/bakgrunn/samlivsbakgrunn.jpg) no-repeat; background-attachment: fixed; background-size:cover; -moz-background-size: cover; -webkit-background-size:cover;}
 
-.samlivarea	{ float: left; width: 45%; margin-bottom: 40px; background-color: #ffeebc; margin-left: 22%; margin-top: 100px; box-shadow: 3px 3px 5px black; -webkit-box-shadow: 3px 3px 5px black; -moz-box-shadow: 3px 3px 5px black;}
+.hovedtekst	{ float: left; width: 45%; margin-bottom: 40px; background-color: #ffeebc; margin-left: 22%; margin-top: 100px; box-shadow: 3px 3px 5px black; -webkit-box-shadow: 3px 3px 5px black; -moz-box-shadow: 3px 3px 5px black;}
 
-.samlivareablank { float: left; width: 45%; margin-bottom: 40px; margin-left: 22%; margin-top: 100px;}
+.hovedtekstblank { float: left; width: 45%; margin-bottom: 40px; margin-left: 22%; margin-top: 100px;}
 
 .samlivstekstbilde { margin-right: 25%; margin-left: 25%; width: 50%; border-color: black; border-width: 2px; border-style: solid; }
 

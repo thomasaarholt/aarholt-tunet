@@ -369,7 +369,7 @@ SAMLIVSKURS {
     background-size      : cover;
 }
 
-.samlivarea {
+.hovedtekst {
     float             : left;
     width             : 45%;
     margin-bottom     : 40px;
@@ -381,7 +381,7 @@ SAMLIVSKURS {
     -moz-box-shadow   : 3px 3px 5px black;
 }
 
-.samlivareablank {
+.hovedtekstblank {
     float        : left;
     width        : 45%;
     margin-bottom: 40px;
@@ -881,7 +881,7 @@ a.uvenstremenysvartV {
         -webkit-background-size: cover;
     }
 
-    .samlivarea {
+    .hovedtekst {
         float           : None;
         width           : 100vw;
         margin-bottom   : 40px;
@@ -891,7 +891,7 @@ a.uvenstremenysvartV {
         box-shadow      : None;
     }
 
-    .samlivareablank {
+    .hovedtekstblank {
         float        : left;
         width        : 45%;
         margin-bottom: 40px;
