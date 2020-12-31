@@ -663,13 +663,12 @@ a.uvenstremenysvartV {
     }
 
     .logo {
-        width   : 193px;
-        height  : 54px;
         position: relative;
-        top     : 33px;
-        left    : 7px;
     }
 
+    .logosvart {
+        position         : relative;
+    }
     .venstremenybox {
         float         : None;
         min-width     : 220px;
