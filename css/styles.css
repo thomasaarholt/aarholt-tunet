@@ -374,7 +374,7 @@ SAMLIVSKURS {
     display: block;
     margin-right: auto;
     margin-left : auto;
-    width       : 50%;
+    width       : 40%;
     border-color: black;
     border-width: 2px;
     border-style: solid;
@@ -800,6 +800,9 @@ a.uvenstremenysvartV {
     /*.mobilgradient {background: linear-gradient(0deg,  #ffeebc 0%, rgba(77, 79, 30,1) 5%);}
 */
 
+    .artikkelbilde {
+        width: 80%;
+    }
 
 
     .venstretekstbilde {
