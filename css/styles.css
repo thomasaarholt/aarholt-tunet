@@ -31,7 +31,7 @@ h3 {
     font-size    : 11pt;
     font-weight  : bold;
     margin-top   : 5px;
-    margin-bottom: 8px
+    margin-bottom: 8px;
     display: block;
     margin-left : auto;
     margin-right: auto;
@@ -667,6 +667,13 @@ a.uvenstremenysvartV {
     }
 
     .logosvart {
+        float            : left;
+        background-repeat: no-repeat;
+        width            : 193px;
+        height           : 100%;
+        top              : 33px;
+        left             : 7px;
+        background-image : url(../img/banner/logo_hvit_liten.png);
         position         : relative;
     }
     .venstremenybox {
